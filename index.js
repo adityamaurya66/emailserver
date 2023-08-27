@@ -11,8 +11,8 @@ app.use(cors()); // Enable CORS for all routes
 const transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-        user: "ry605231@gmail.com",
-        pass: "vwirwxrxbwpxjkqw",
+        user: "code2pdf11@gmail.com",
+        pass: "nmsonggmdyuiuvwt",
     }
 });
 
@@ -29,7 +29,7 @@ app.post('/send-email', (req, res) => {
         },
     ];
     const mailOptions = {
-        from: "ry605231@gmail.com",
+        from: "code2pdf11@gmail.com",
         to: email,
         subject: "Your PDF Files",
         html: `
