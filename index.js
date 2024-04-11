@@ -10,9 +10,11 @@ app.use(cors()); // Enable CORS for all routes
 
 const transporter = nodemailer.createTransport({
     service: 'Gmail',
+    port:465,
+    secure:true,
     auth: {
         user: "code2pdf11@gmail.com",
-        pass: "nmsonggmdyuiuvwt",
+        pass: "dszidjlxubveoemw",
     }
 });
 
